@@ -1,6 +1,10 @@
 //peticiones http
 
-import * as CRUD from './js/crud-provider';
+import { init } from './js/archivos-page'
+
+init();
+
+// import * as CRUD from './js/crud-provider';
 
 // CRUD.getUsuario(2).then(console.log);
 
@@ -14,7 +18,7 @@ import * as CRUD from './js/crud-provider';
 //     job:  'developer'
 // }).then(console.log);
 
-CRUD.eliminarUsuario( 1 ).then( console.log );
+// CRUD.eliminarUsuario( 1 ).then( console.log );
 
 
 
